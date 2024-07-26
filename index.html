@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nn">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,82 +14,96 @@
 
     <style>
         .wrapper {
-        position: fixed;
-        bottom: 50px;
-        right: -370px;
-        max-width: 345px;
-        width: 100%;
-        background: #fff;
-        border-radius: 8px;
-        padding: 15px 25px 22px;
-        transition: right 0.3s ease;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-      }
-      .wrapper.show {
-        right: 20px;
-      }
-      .wrapper .header {
-        display: flex;
-        align-items: center;
-        column-gap: 15px;
-      }
-      .header i {
-        color: #31cec3;
-        font-size: 32px;
-      }
-      .header h2 {
-        color: #31cec3;
-        font-weight: 500;
-      }
-      .wrapper .data {
-        margin-top: 16px;
-      }
-      .wrapper .data p {
-        color: #333;
-        font-size: 16px;
-      }
-      .data p a {
-        color: #31cec3;
-        text-decoration: none;
-      }
-      .data p a:hover {
-        text-decoration: underline;
-      }
-      .wrapper .buttons {
-        margin-top: 16px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      .buttons .button {
-        border: none;
-        color: #fff;
-        padding: 8px 0;
-        border-radius: 4px;
-        background: #31cec3;
-        cursor: pointer;
-        width: calc(100% / 2 - 10px);
-        transition: all 0.2s ease;
-      }
-      .buttons #acceptBtn:hover {
-        background-color: #157e77;
-      }
-      #declineBtn {
-        border: 2px solid #31cec3;
-        background-color: #fff;
-        color: #31cec3;
-      }
-      #declineBtn:hover {
-        background-color: #31cec3;
-        color: #fff;
-      }
-      </style>
+            position: fixed;
+            bottom: 50px;
+            right: -370px;
+            max-width: 345px;
+            width: 100%;
+            background: #fff;
+            border-radius: 8px;
+            padding: 15px 25px 22px;
+            transition: right 0.3s ease;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .wrapper.show {
+            right: 20px;
+        }
+
+        .wrapper .header {
+            display: flex;
+            align-items: center;
+            column-gap: 15px;
+        }
+
+        .header i {
+            color: #31cec3;
+            font-size: 32px;
+        }
+
+        .header h2 {
+            color: #31cec3;
+            font-weight: 500;
+        }
+
+        .wrapper .data {
+            margin-top: 16px;
+        }
+
+        .wrapper .data p {
+            color: #333;
+            font-size: 16px;
+        }
+
+        .data p a {
+            color: #31cec3;
+            text-decoration: none;
+        }
+
+        .data p a:hover {
+            text-decoration: underline;
+        }
+
+        .wrapper .buttons {
+            margin-top: 16px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .buttons .button {
+            border: none;
+            color: #fff;
+            padding: 8px 0;
+            border-radius: 4px;
+            background: #31cec3;
+            cursor: pointer;
+            width: calc(100% / 2 - 10px);
+            transition: all 0.2s ease;
+        }
+
+        .buttons #acceptBtn:hover {
+            background-color: #157e77;
+        }
+
+        #declineBtn {
+            border: 2px solid #31cec3;
+            background-color: #fff;
+            color: #31cec3;
+        }
+
+        #declineBtn:hover {
+            background-color: #31cec3;
+            color: #fff;
+        }
+    </style>
 
 
 </head>
+
 <body>
-   
+
 
     <div class="site-header">
         <div class="container">
@@ -139,7 +154,7 @@
                     Hotelapo
                 </h1>
                 <p>
-              
+
                     Finn de beste hotellene i Las Vegas
                 </p>
             </div>
@@ -148,21 +163,21 @@
 
     <div class="top-text ptb-50">
         <div class="container">
-                <p>
-                    Planlegger du en tur til Las Vegas? Se ikke lenger! Vår nettside er dedikert til å hjelpe
-                    norske reisende med å finne det perfekte hotellet i verdens underholdningshovedstad. Enten
-                    du leter etter luksuriøse suiter, budsjettvennlige alternativer eller noe midt i mellom, har vi
-                    dekket deg. Sammenlign priser, les ekte anmeldelser og bestill ditt ideelle opphold enkelt. La
-                    oss guide deg gjennom de pulserende gatene i Las Vegas, slik at du får en uforglemmelig
-                    opplevelse fra start til slutt. Drømmehotellet ditt er bare et klikk unna!
-                </p>
+            <p>
+                Planlegger du en tur til Las Vegas? Se ikke lenger! Vår nettside er dedikert til å hjelpe
+                norske reisende med å finne det perfekte hotellet i verdens underholdningshovedstad. Enten
+                du leter etter luksuriøse suiter, budsjettvennlige alternativer eller noe midt i mellom, har vi
+                dekket deg. Sammenlign priser, les ekte anmeldelser og bestill ditt ideelle opphold enkelt. La
+                oss guide deg gjennom de pulserende gatene i Las Vegas, slik at du får en uforglemmelig
+                opplevelse fra start til slutt. Drømmehotellet ditt er bare et klikk unna!
+            </p>
         </div>
     </div>
 
     <div class="link-wrap pb-50">
         <div class="container">
             <div class="row">
-             
+
                 <div class="col-md-4">
                     <div class="link-card" style="background-image: url(assets/images/link-card-3.jpg);">
                         <a href="low-cost-hotels.html">
@@ -182,7 +197,7 @@
                         </a>
                     </div>
                 </div>
-             
+
 
                 <div class="col-md-4">
                     <div class="link-card" style="background-image: url(assets/images/link-card-1.jpg);">
@@ -277,31 +292,55 @@
             </div>
         </div>
     </div>
-
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-wrap">
+                <div class="newsletter-heading">
+                    <h4>
+                        Meld deg på vårt nyhetsbrev for eksklusive tilbud
+                    </h4>
+                </div>
+                <div class="news-form">
+                    <input type="email" placeholder="Enter Your Email">
+                    <button>Melde deg på</button>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="disclaimer-sec ptb-50">
         <div class="container">
             <h3>
                 Ansvarsfraskrivelse
             </h3>
             <p>
-                Informasjonen gitt på denne nettsiden er kun til generell informasjonsformål. Selv om vi streber etter å holde informasjonen
-                oppdatert og nøyaktig, gir vi ingen representasjoner eller garantier av noe slag, uttrykkelig eller underforstått, om
-                fullstendigheten, nøyaktigheten, påliteligheten, egnetheten eller tilgjengeligheten med hensyn til nettstedet eller informasjonen,
-                produktene, tjenester eller relatert grafikk på nettstedet for ethvert formål. Enhver tillit du legger til slik informasjon er derfor
+                Informasjonen gitt på denne nettsiden er kun til generell informasjonsformål. Selv om vi streber etter å
+                holde informasjonen
+                oppdatert og nøyaktig, gir vi ingen representasjoner eller garantier av noe slag, uttrykkelig eller
+                underforstått, om
+                fullstendigheten, nøyaktigheten, påliteligheten, egnetheten eller tilgjengeligheten med hensyn til
+                nettstedet eller informasjonen,
+                produktene, tjenester eller relatert grafikk på nettstedet for ethvert formål. Enhver tillit du legger
+                til slik informasjon er derfor
                 strengt tatt på egen risiko.
             </p>
             <p>
-                Gjennom denne nettsiden kan du kanskje koble til andre nettsteder som ikke er under kontroll av nettstedet vårt. Vi har ingen
-                kontroll over arten, innholdet og tilgjengeligheten til disse nettstedene. Inkludering av lenker innebærer ikke nødvendigvis en
+                Gjennom denne nettsiden kan du kanskje koble til andre nettsteder som ikke er under kontroll av
+                nettstedet vårt. Vi har ingen
+                kontroll over arten, innholdet og tilgjengeligheten til disse nettstedene. Inkludering av lenker
+                innebærer ikke nødvendigvis en
                 anbefaling eller godkjenner synspunktene som uttrykkes i dem.
             </p>
             <p>
-                Vær oppmerksom på at vi er tilknyttet hotellene som er oppført på siden vår. Vi kan motta en provisjon for bestillinger gjort via
-                lenkene som er oppgitt, men dette påvirker ikke våre anmeldelser eller anbefalinger. Priser og tilgjengelighet på hotellrom kan
-                endres uten varsel, og vi kan ikke holdes ansvarlige for eventuelle avvik eller problemer som kan oppstå fra bestillinger.
+                Vær oppmerksom på at vi er tilknyttet hotellene som er oppført på siden vår. Vi kan motta en provisjon
+                for bestillinger gjort via
+                lenkene som er oppgitt, men dette påvirker ikke våre anmeldelser eller anbefalinger. Priser og
+                tilgjengelighet på hotellrom kan
+                endres uten varsel, og vi kan ikke holdes ansvarlige for eventuelle avvik eller problemer som kan oppstå
+                fra bestillinger.
             </p>
             <p>
-                Alt gjøres for å holde nettstedet oppe og kjører jevnt. Vi tar imidlertid intet ansvar for, og vil ikke være ansvarlige for, at
+                Alt gjøres for å holde nettstedet oppe og kjører jevnt. Vi tar imidlertid intet ansvar for, og vil ikke
+                være ansvarlige for, at
                 nettstedet er midlertidig utilgjengelig på grunn av tekniske problemer utenfor vår kontroll.
             </p>
         </div>
@@ -391,7 +430,7 @@
                                     Vilkår og betingelser
                                 </a>
                             </li>
-                          
+
                         </ul>
                     </div>
                 </div>
@@ -400,7 +439,7 @@
                         <p>
                             Meld deg på vårt nyhetsbrev for eksklusive tilbud
                         </p>
-                        <form >
+                        <form>
                             <input type="email" placeholder="Skriv inn din e-post">
                             <button>Melde deg på</button>
                         </form>
@@ -419,49 +458,50 @@
 
     <div class="wrapper">
         <div class=" header">
-          <i class="bx bx-cookie"></i>
-          <h2>VÅRE COOKIES</h2>
+            <i class="bx bx-cookie"></i>
+            <h2>VÅRE COOKIES</h2>
         </div>
-  
-        <div class="data">
-          <p>We use cookies to improve your user experience on our site, analyze site traffic and
-            customize content. By continuing to use our site, you accept the use of cookies.</p>
-        </div>
-  
-        <div class="buttons">
-          <button class="button" id="acceptBtn">Aksepterer</button>
-          <button class="button" id="declineBtn">Avslå</button>
-        </div>
-      </div>
 
-     <script src="assets/js/jquery-3.7.1.min.js"></script>
-     <script src="assets/js/bootstrap.bundle.min.js"></script>
-     <script src="assets/js/custom.js"></script>
-     <script>
+        <div class="data">
+            <p>We use cookies to improve your user experience on our site, analyze site traffic and
+                customize content. By continuing to use our site, you accept the use of cookies.</p>
+        </div>
+
+        <div class="buttons">
+            <button class="button" id="acceptBtn">Aksepterer</button>
+            <button class="button" id="declineBtn">Avslå</button>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
         const cookieBox = document.querySelector(".wrapper"),
-    buttons = document.querySelectorAll(".button");
-  
-  const executeCodes = () => {
-    //if cookie contains codinglab it will be returned and below of this code will not run
-    if (document.cookie.includes("codinglab")) return;
-    cookieBox.classList.add("show");
-  
-    buttons.forEach((button) => {
-      button.addEventListener("click", () => {
-        cookieBox.classList.remove("show");
-  
-        //if button has acceptBtn id
-        if (button.id == "acceptBtn") {
-          //set cookies for 1 month. 60 = 1 min, 60 = 1 hours, 24 = 1 day, 30 = 30 days
-          document.cookie = "cookieBy= codinglab; max-age=" + 60 * 60 * 24 * 30;
-        }
-      });
-    });
-  };
-  
-  //executeCodes function will be called on webpage load
-  window.addEventListener("load", executeCodes);
-      </script>
- 
+            buttons = document.querySelectorAll(".button");
+
+        const executeCodes = () => {
+            //if cookie contains codinglab it will be returned and below of this code will not run
+            if (document.cookie.includes("codinglab")) return;
+            cookieBox.classList.add("show");
+
+            buttons.forEach((button) => {
+                button.addEventListener("click", () => {
+                    cookieBox.classList.remove("show");
+
+                    //if button has acceptBtn id
+                    if (button.id == "acceptBtn") {
+                        //set cookies for 1 month. 60 = 1 min, 60 = 1 hours, 24 = 1 day, 30 = 30 days
+                        document.cookie = "cookieBy= codinglab; max-age=" + 60 * 60 * 24 * 30;
+                    }
+                });
+            });
+        };
+
+        //executeCodes function will be called on webpage load
+        window.addEventListener("load", executeCodes);
+    </script>
+
 </body>
+
 </html>
